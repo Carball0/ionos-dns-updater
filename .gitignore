@@ -1,3 +1,9 @@
+# ip_cache file
+ip_cache.txt
+
+# config.py file (contains API keys)
+config.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
