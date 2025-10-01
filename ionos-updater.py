@@ -145,7 +145,7 @@ def obtain_zone_id_from_name(zone_name, zones):
         exit()
 
 def get_ipv4_addr():
-    return requests.head(public_ip_url).headers["x-client-ip"]
+    return requests.head(url=public_ip_url, headers=user_agent).headers["x-client-ip"]
 
 def get_zones():
     return json.loads(requests.request("GET", api_url, headers=api_headers).text)

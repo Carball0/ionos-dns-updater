@@ -2,7 +2,7 @@
 ip_cache.txt
 
 # config.py file (contains API keys)
-config.py
+config*.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
